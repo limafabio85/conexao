@@ -1,0 +1,10 @@
+<?php 
+		$servidor="localhost";
+		$usuario="root";
+		$senha="";
+		$banco="db_locadora";
+		
+	$con=mysql_connect($servidor,$usuario,$senha);
+	$base=mysql_select_db($banco,$con);
+
+?>
